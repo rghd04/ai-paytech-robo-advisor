@@ -1,0 +1,28 @@
+{
+  "topics": [
+    {
+      "name": "Digital Wallets",
+      "examples": [
+        "What are digital wallets?",
+        "كيف تعمل المحافظ الرقمية؟"
+      ],
+      "response": "Digital wallets store tokenized card data and enable secure payments."
+    },
+    {
+      "name": "Card Processing",
+      "examples": [
+        "How does card payment work?",
+        "كيف تتم عملية الدفع بالبطاقة؟"
+      ],
+      "response": "Card processing involves authorization, clearing, and settlement."
+    },
+    {
+      "name": "Fraud Prevention",
+      "examples": [
+        "How to prevent fraud?",
+        "كيف نقلل الاحتيال؟"
+      ],
+      "response": "Fraud prevention includes authentication, monitoring, and risk analysis."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "conversations": [
+    {
+      "user": "What is a digital wallet?",
+      "bot": "It stores tokenized card data for secure payments."
+    },
+    {
+      "user": "ماهي بوابات الدفع؟",
+      "bot": "هي أنظمة تربط التاجر بالبنك لمعالجة المدفوعات."
+    },
+    {
+      "user": "How does card processing work?",
+      "bot": "It involves authorization, clearing, and settlement between banks."
+    },
+    {
+      "user": "كيف تتم عملية الدفع بالبطاقة؟",
+      "bot": "تمر بمرحلة التحقق ثم المعالجة ثم تأكيد العملية."
+    },
+    {
+      "user": "What are the benefits of digital wallets?",
+      "bot": "They provide faster payments, better security, and convenience."
+    },
+    {
+      "user": "وش فائدة المحافظ الرقمية؟",
+      "bot": "توفر سرعة في الدفع وأمان أعلى وسهولة الاستخدام."
+    },
+    {
+      "user": "How can I reduce payment fraud?",
+      "bot": "By using authentication, monitoring transactions, and risk analysis."
+    },
+    {
+      "user": "كيف أقلل الاحتيال في الدفع؟",
+      "bot": "باستخدام التحقق الثنائي ومراقبة العمليات وتحليل المخاطر."
+    },
+    {
+      "user": "What is a payment gateway?",
+      "bot": "It is a system that connects merchants to banks to process payments."
+    },
+    {
+      "user": "What is tokenization?",
+      "bot": "It replaces sensitive card data with a secure token to protect transactions."
+    },
+    {
+      "user": "ما هو التوكن في الدفع؟",
+      "bot": "هو استبدال بيانات البطاقة برمز آمن لحماية العمليات."
+    }
+  ]
+}
