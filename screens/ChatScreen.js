@@ -125,7 +125,7 @@ export default function ChatScreen({ route }) {
     logEvent(analytics, "chat_used");
 
     try {
-      const response = await fetch("http://localhost:5051/chat", {
+      const response = await fetch("https://paytech-roboadvisor.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
