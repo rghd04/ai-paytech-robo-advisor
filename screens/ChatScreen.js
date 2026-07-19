@@ -31,10 +31,8 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-/**
- * 3 preset questions (no OpenAI) + Other
- * you can edit the text/answers anytime
- */
+
+
 const PRESET = [
   {
     id: "card",
@@ -130,7 +128,7 @@ export default function ChatScreen({ route }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           message: value,
-          history: [], // you can later send previous messages if you want context
+          history: [], 
         }),
       });
 const data = await response.json();
@@ -187,7 +185,7 @@ const data = await response.json();
      <View style={styles.header}>
   <View style={styles.headerRow}>
     <Image
-      source={require("../assets/paylogo.jpg")} // عدّلي الاسم لو مختلف
+      source={require("../assets/paylogo.jpg")}
       style={styles.headerAvatar}
       resizeMode="contain"
     />
