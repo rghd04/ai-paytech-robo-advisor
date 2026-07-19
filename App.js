@@ -13,8 +13,7 @@ return <ChatScreen />;
 
 }
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
   apiKey: "AIzaSyCW_mTIKn2becc3GDS4F1hpBJhp8JmZkDw",
   authDomain: "paytech-tracking.firebaseapp.com",
@@ -25,6 +24,5 @@ const firebaseConfig = {
   measurementId: "G-DET9KRYLM4"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
